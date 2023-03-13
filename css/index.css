@@ -50,7 +50,7 @@ transition: all .5s;
 .img img:hover{
     margin-top: 19px;
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rebeccapurple;
+    box-shadow: 0 11px 20px rebeccapurple;
     border: solid white 1px;
     transition: all .3s;
     width:290px;
