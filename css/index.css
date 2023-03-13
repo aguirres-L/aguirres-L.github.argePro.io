@@ -46,12 +46,16 @@ background-color: rgb(125, 75, 139);
 width:350px;
 height: 250px;
 transition: all .5s;
-
 }
 .img img:hover{
-    box-shadow:0px 0px 25px rebeccapurple;
+    margin-top: 19px;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rebeccapurple;
     border: solid white 1px;
     transition: all .3s;
+    width:290px;
+    height: 190px;
+    border-radius: 5px;
 }   
 .img p{
 color: whitesmoke;
@@ -80,5 +84,24 @@ color: whitesmoke;
             color: aliceblue;
             margin-left: 20%;
         }
+    }
     
+    
+    
+    @media (max-width:600px) {   
+        .img img:hover{
+            margin-top: 15px;
+                transform: translateY(-10px);
+                box-shadow: 0 10px 20px rebeccapurple;
+                border: solid white 1px;
+                transition: all .3s;
+            }   
+        
+            .header header {
+                font-size: 40px;
+                color: aliceblue;
+                margin-left: 20%;
+            }
 }
+
+ 
